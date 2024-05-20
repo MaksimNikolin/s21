@@ -1,4 +1,4 @@
-CCC = gcc
+CC = gcc
 CFLAGS = -Wall -Werror -Wextra -std=c11
 
 # Coverage flags
