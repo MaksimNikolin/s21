@@ -1,0 +1,9 @@
+services:
+
+  service1:
+    build: ../Part5
+
+  service2:
+    build: .
+    ports:
+      - 80:8080
