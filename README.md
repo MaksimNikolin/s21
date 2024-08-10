@@ -1,4 +1,6 @@
-In this repository you can find projects implemented as part of the learning at School 21 (Samarqand city).
+In this repository you can find projects implemented as part of the learning at School 21 (Samarqand city). 
+
+![Текст с описанием картинки](s21_logo.png)
 
 Projects developed in C:
 - P02D13-1-develop - implementation of the Game of Life game
