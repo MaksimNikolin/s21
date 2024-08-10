@@ -1,6 +1,6 @@
 In this repository you can find projects implemented as part of the learning at School 21 (Samarqand city). 
 
-<img align="right" width="220" height="220" src="s21_logo.png"> 
+<img align="right" width="200" height="200" src="s21_logo.png"> 
 
 
 Projects developed in C:
