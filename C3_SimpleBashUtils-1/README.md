@@ -144,9 +144,3 @@ Bonus assignment for extra points. You need to develop the grep utility:
 - Only pcre or regex libraries can be used for regular expressions
 - The source, header and make files must be placed in the src/grep/ directory
 - The resulting executable file must be placed in the directory src/grep/ and named s21_grep
-
-
-
-💡 [Tap here](https://forms.yandex.ru/cloud/64144c1bc09c020aafe7a4f3/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
-
-
