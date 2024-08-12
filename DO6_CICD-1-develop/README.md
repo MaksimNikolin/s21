@@ -222,6 +222,3 @@ Just before you take out your phone, another person enters the break room.
 The stranger quickly disappeared and a short man in an expensive suit, slightly balding, in his early fifties or sixties, entered the room. Without waiting for you to speak, he said with a subtle, almost imperceptible smile:
 
 "Oh, you must be Thomas. A truly magnificent performance on the test piece. I hope you weren't intimidated by our dear friend ASI Junior, she spoke very highly of you. So, let me tell you more about what we do here in general and what your role is in our company..."
-
-
-💡 [Tap here](https://forms.yandex.ru/cloud/641819b3c09c022518e7a4f3/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
