@@ -8,6 +8,7 @@ Projects developed in C:
 - C2_s21_stringplus-1-develop - implementation of the String library
 - C3_SimpleBashUtils-1 - implementation of the cat & grep functions
 - C6_s21_matrix-1 - implementation of the matrix library
+- C7_BrickGame_v1.0-1 - implementation of Tetris game
 
 DevOps projects:
 - DO2_LinuxNetwork-1 - basic commands for working with networks
