@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+        ul { margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+<h1>Tetris Game Documentation</h1>
+
+<h2>Overview</h2>
+<p>This project implements a classic Tetris game using C and the NCurses library. The game allows players to control falling tetrominoes, clearing lines and scoring points. The project includes functionality for game initialization, user input handling, collision detection, and score management.</p>
+
+<h2>Table of Contents</h2>
+<ul>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#game-controls">Game Controls</a></li>
+    <li><a href="#function-descriptions">Function Descriptions</a></li>
+    <li><a href="#testing">Testing</a></li>
+</ul>
+
+<h2 id="features">Features</h2>
+<ul>
+    <li>Classic Tetris gameplay</li>
+    <li>Various tetromino shapes</li>
+    <li>High score tracking</li>
+    <li>User controls for piece movement and rotation</li>
+    <li>Line clearing and score management</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+<h3>Prerequisites</h3>
+<ul>
+    <li>GCC (GNU Compiler Collection)</li>
+    <li>NCurses library</li>
+    <li>Check library (for unit testing)</li>
+    <li>Make</li>
+</ul>
+
+<h3>Steps</h3>
+<pre>
+1. Install the NCurses, GCC compiler, Make and Check libraries (if not already installed):
+
+2. Compile the game using makefile (src folder):
+   make install
+</pre>
+
+<h2 id="usage">Usage</h2>
+<p>Run the game using the following command:</p>
+<pre>./bin/tetris</pre>
+
+<h2 id="game-controls">Game Controls</h2>
+<ul>
+    <li><strong>Arrow Left:</strong> Move piece left</li>
+    <li><strong>Arrow Right:</strong> Move piece right</li>
+    <li><strong>Arrow Down:</strong> Drop piece</li>
+    <li><strong>Space:</strong> Rotate piece</li>
+    <li><strong>P:</strong> Pause/Resume the game</li>
+    <li><strong>Q:</strong> Quit the game</li>
+</ul>
+
+<h2 id="function-descriptions">Function Descriptions</h2>
+<h3>void initGame()</h3>
+<p>Initializes the game state, including the game field and the first tetromino pieces.</p>
+
+<h3>void userInput(UserAction_t action, bool hold)</h3>
+<p>Handles user input to control the game actions based on the specified action.</p>
+
+<h3>GameInfo_t updateCurrentState()</h3>
+<p>Updates the current game state, including moving the tetromino down automatically based on the game speed.</p>
+
+<h3>void cleanup()</h3>
+<p>Cleans up allocated resources and ends the NCurses session.</p>
+
+<h3>void newPiece()</h3>
+<p>Generates a new tetromino piece and checks for game over conditions.</p>
+
+<h3>bool checkCollision(int x, int y, int rotation)</h3>
+<p>Checks if the current piece collides with the game field or boundaries.</p>
+
+<h3>void placePiece()</h3>
+<p>Places the current tetromino piece onto the game field.</p>
+
+<h3>void clearLines()</h3>
+<p>Clears completed lines from the game field and updates the score.</p>
+
+<h3>void rotatePiece()</h3>
+<p>Rotates the current tetromino piece if there’s no collision.</p>
+
+<h3>void movePiece(int dx, int dy)</h3>
+<p>Moves the current piece in the specified direction if possible.</p>
+
+<h3>void dropPiece()</h3>
+<p>Drops the current piece to the lowest available position in the game field.</p>
+
+<h3>void spawnNewPiece()</h3>
+<p>Randomly generates a new tetromino type for the next piece.</p>
+
+<h2 id="testing">Testing</h2>
+<p>Unit tests for the project can be found in the <code>test_tetris.c</code> file. To run the tests, compile and execute:</p>
+<pre>
+make test
+</pre>
+
+
+</body>
+</html>
