@@ -10,7 +10,7 @@ GCOV = --coverage
 
 OS = $(shell uname)
 REPORTDIR = report
-HEADERS = s21_matrix_oop.h
+HEADERS = s21_matrix_oop.hpp
 SRC = $(wildcard functions/*.c auxiliary/*.c)
 OBJ = $(patsubst %.c, %.o, $(SRC))
 
