@@ -10,10 +10,10 @@ Projects developed in C:
 - C6_s21_matrix-1 - implementation of the matrix library
 - C7_BrickGame_v1.0-1 - implementation of Tetris game
 
+Projects developed in C++ :
+- CPP1_s21_matrixplus-1 - implementation of the matrix library
+- 
 DevOps projects:
 - DO2_LinuxNetwork-1 - basic commands for working with networks
 - DO5_SimpleDocker-1 - basic commands for working with containers
 - DO6_CICD-1-develop - deployment of the SimpleBashUtils project
-
-Projects developed in C++ :
-- CPP1_s21_matrixplus-1 - implementation of the matrix library
