@@ -73,13 +73,13 @@ gcov_report: clean
 clang :
 	@echo "Running clang-format..."
 	@{                                                                                                                   \
-		clang-format -style="{BasedOnStyle : Google}" -n */*.c */*/*.c */*/*.h > clang_format_output.txt 2>&1;           \
-		if [ -s clang_format_output.txt ]; then                                                                          \
-			echo "Clang-format made changes";                                                                            \
-		else                                                                                                             \
-			echo "Clang-format is OK";                                                                                   \
-		fi;                                                                                                              \
-		rm -f clang_format_output.txt;                                                                                   \
+		clang-format -style="{BasedOnStyle : Google}" -n */*.c */*/*.c */*/*.h > clang_format_output.txt 2>&1;       \
+		if [ -s clang_format_output.txt ]; then                                                                      \
+			echo "Clang-format made changes";                                                                    \
+		else                                                                                                         \
+			echo "Clang-format is OK";                                                                           \
+		fi;                                                                                                          \
+		rm -f clang_format_output.txt;                                                                               \
 		}
 	@clang-format -style="{BasedOnStyle : Google}" -i */*.c */*/*.c */*/*.h
 	
