@@ -108,7 +108,6 @@ void use_flags(FILE* file, struct flags flag, int* lines_count, int* prev_ch) {
 }
 
 int main(int argc, char* argv[]) {
-  print_logo();
   struct flags flag = {0};
   cat_flags(argc, argv, &flag);
   open_file(argc, argv, flag);
