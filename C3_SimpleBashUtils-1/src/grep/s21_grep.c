@@ -156,7 +156,6 @@ void grep(Grep_values value, Flags flag, char pattern[SIZE][SIZE]) {
 }
 
 int main(int argc, char *argv[]) {
-  print_logo();
   char patterns[SIZE][SIZE] = {0};
   int opt_ind = 0;
   Flags option = {0};
