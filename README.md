@@ -5,7 +5,7 @@ In this repository you can find projects implemented as part of the learning at 
 
 Projects developed in C :
 - P02D13-1-develop - implementation of the Game of Life game
-- C2_s21_stringplus-1-develop - implementation of the String library
+- C2_s21_stringplus-1-develop - implementation of the string.h library with additions
 - C3_SimpleBashUtils-1 - development of bash text utilities: cat, grep
 - C6_s21_matrix-1 - implementation of the matrix library
 - C7_BrickGame_v1.0-1 - implementation of Tetris game
