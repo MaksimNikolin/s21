@@ -59,7 +59,7 @@ rebuild : clean all
 clang :
 	@echo "$(COLOR_TITLE)Running clang-format..$(COLOR_RESET)"
 	@{                                                                                                                   \
-		clang-format -style="{BasedOnStyle : Google}" -n *.cpp *.h > clang_format_output.txt 2>&1;                 \
+		clang-format -style="{BasedOnStyle : Google}" -n *.cpp *.h > clang_format_output.txt 2>&1;                   \
 		if [ -s clang_format_output.txt ]; then                                                                      \
 			echo "$(COLOR_FAIL)Clang-format made changes$(COLOR_RESET)";                                         \
 		else                                                                                                         \
