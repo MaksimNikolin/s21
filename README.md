@@ -12,7 +12,8 @@ Projects developed in C :
 
 Projects developed in C++ :
 - CPP1_s21_matrixplus-1 - implementation of the matrix library
-- 
+- CPP2_s21_containers-2 - implementation of the s21_containers.h library
+
 DevOps projects :
 - DO2_LinuxNetwork-1 - basic commands for working with networks
 - DO5_SimpleDocker-1 - basic commands for working with containers
