@@ -63,12 +63,12 @@ rebuild : clean all
 
 clang :
 	@echo "$(COLOR_TITLE)Running clang-format..$(COLOR_RESET)"
-	@{                                                                                                 \
+	@{                                                                                           \
 		clang-format -style="{BasedOnStyle : Google}" -n $(SRC)/* > clang_format_output.txt 2>&1;  \
 		if [ -s clang_format_output.txt ]; then                                                    \
-			echo "$(COLOR_FAIL)Clang-format made changes$(COLOR_RESET)";                       \
+			echo "$(COLOR_FAIL)Clang-format made changes$(COLOR_RESET)";                             \
 		else                                                                                       \
-			echo "$(COLOR_SUCCESS)Clang-format is OK$(COLOR_RESET)";                           \
+			echo "$(COLOR_SUCCESS)Clang-format is OK$(COLOR_RESET)";                                 \
 		fi;                                                                                        \
 		rm -f clang_format_output.txt;                                                             \
 	}
@@ -86,15 +86,15 @@ ifeq ($(OS), Darwin)
 	@leaks -atExit -- ./unit_test
 else
 	@valgrind --tool=memcheck --leak-check=full ./unit_test /dev/null 2>&1 | grep -E "ERROR SUMMARY" > valgrind_output.txt 2>&1
-	@if grep -q "ERROR SUMMARY: 0" valgrind_output.txt; then                                                                     \
+	@if grep -q "ERROR SUMMARY: 0" valgrind_output.txt; then                                                               \
 		printf "$(COLOR_SUCCESS)";                                                                                           \
 		cat valgrind_output.txt;                                                                                             \
 		printf "$(COLOR_RESET)";                                                                                             \
-	else                                                                                                                         \
+	else                                                                                                                   \
 		printf "$(COLOR_FAIL)";                                                                                              \
 		cat valgrind_output.txt;                                                                                             \
 		printf "$(COLOR_RESET)";                                                                                             \
-	fi;                                                                                                                          \
+	fi;                                                                                                                    \
 	rm -f valgrind_output.txt
 endif
 	@echo
