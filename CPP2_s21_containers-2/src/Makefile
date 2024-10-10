@@ -10,7 +10,7 @@ LINUX_FLAGS = -lrt -lpthread -lm -lsubunit
 GCOV_FLAGS = --coverage
 LIBS = -lgtest
 SRC = s21_containers/vector
-TEST_SRC = unit_tests.cc
+TEST_SRC = Tests.cc
 
 
 OS := $(shell uname -s)
