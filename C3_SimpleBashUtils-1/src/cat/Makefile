@@ -1,11 +1,10 @@
 CC = gcc
 FLAGS = -Wall -Wextra -Werror -std=c11
-BUILD = s21_cat.c
 
 all: clean s21_cat
 
 s21_cat:
-	$(CC) $(FLAGS) $(BUILD) -o s21_cat
+	$(CC) $(FLAGS) s21_cat.c -o s21_cat
 
 rebuild:
 	make clean
@@ -25,7 +24,3 @@ wvalg: s21_cat
 cppcheck: s21_cat
 	cppcheck *.h
 	cppcheck --enable=all --suppress=missingIncludeSystem *.c
-
-testing:
-	rm -rf ./autotest/s21_cat
-	$(CC) $(FLAGS) s21_cat.c -o ./autotest/s21_cat
