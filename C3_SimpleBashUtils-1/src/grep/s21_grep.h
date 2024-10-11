@@ -21,7 +21,6 @@ typedef struct {
   int count_pattern;
 } Grep_values;
 
-void print_logo();
 int parser(int argc, char *argv[], Flags *flag, Grep_values *value, char pattern[SIZE][SIZE]);
 int find_pattern(int opt_ind, char *argv[], char patterns[SIZE][SIZE]);
 void grep(Grep_values value, Flags flag, char pattern[SIZE][SIZE]);
@@ -30,4 +29,4 @@ void c_l_flags(Grep_values value, Flags flag, int count_match_lines);
 void o_flag(char *start_point, regex_t preg);
 void print_strings(Grep_values value, Flags flag, int count_lines, char *string);
 
-#endif
+#endif // SRC_GREP_S21_GREP_H_
