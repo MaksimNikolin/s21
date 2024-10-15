@@ -1,5 +1,5 @@
-#ifndef SRC_S21_MATRIX_OOP_H_
-#define SRC_S21_MATRIX_OOP_H_
+#ifndef SRC_S21_MATRIX_OOP_HPP_
+#define SRC_S21_MATRIX_OOP_HPP_
 
 #include <cmath>
 #include <iostream>
@@ -47,4 +47,4 @@ class S21Matrix {
   S21Matrix InverseMatrix();
 };
 
-#endif  // SRC_S21_MATRIX_OOP_H_
+#endif  // SRC_S21_MATRIX_OOP_HPP_
