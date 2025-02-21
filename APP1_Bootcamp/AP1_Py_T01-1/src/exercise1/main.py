@@ -1,0 +1,5 @@
+vector_1 = input()
+a1, b1, c1 = map(float, vector_1.split())
+vector_2 = input()
+a2, b2, c2 = map(float, vector_2.split())
+print(a1*a2+b1*b2+c1*c2)
