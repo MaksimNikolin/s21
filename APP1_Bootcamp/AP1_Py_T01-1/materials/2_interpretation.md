@@ -1,0 +1,5 @@
+# Program compilation/interpretation
+
+Python is an interpreted programming language, which means that Python code is not compiled into machine code before execution, as is done, for example, in C++ or Java programming languages.
+Instead, Python uses a special program called an interpreter to read and execute code directly. When you run a Python program, the interpreter reads your code line by line (or block by block) and translates it into machine commands that the computer can execute. The benefits of interpretation include faster development by not having to compile before each testing of code changes. However, interpretation can also have its disadvantages, such as lower performance in some cases due to the extra time required to interpret code at runtime.
+In addition, interpretation provides more flexibility, allowing code to run on different platforms without the need to recompile. This makes Python convenient for writing portable software that can run on different operating systems without changes to the source code.
