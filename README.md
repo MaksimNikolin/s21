@@ -12,7 +12,7 @@ C projects :
 
 C++ projects :
 
-<img align="right" width="300" height="90" src="nickname.png"> 
+<img align="right" width="380" height="90" src="nickname.png"> 
 
 - CPP1_s21_matrixplus-1 - implementation of the matrix library
 - CPP2_s21_containers-2 - implementation of the s21_containers.h library
