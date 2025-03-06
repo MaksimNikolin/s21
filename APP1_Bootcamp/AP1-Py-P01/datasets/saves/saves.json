@@ -1,0 +1,44 @@
+{
+    "nickname": "sd",
+    "stats": {
+        "nickname": "sd",
+        "gold": 26,
+        "rogue_level": 4,
+        "defeated_enemies": 6,
+        "eaten_food": 0,
+        "used_potions": 0,
+        "used_scrolls": 0,
+        "total_hits": 24,
+        "missed_hits": 16,
+        "passed_cells": 613
+    },
+    "character_state": {
+        "level": 4,
+        "strength": 11,
+        "agility": 9,
+        "max_hp": 140,
+        "hp": 18,
+        "exp": 2,
+        "max_exp": 10,
+        "gold": 26,
+        "effects": [],
+        "items": [
+            {
+                "cls": "Food",
+                "dump": {
+                    "name": "манго",
+                    "hp": 30
+                }
+            },
+            {
+                "cls": "Potion",
+                "dump": {
+                    "feature": "STRENGTH",
+                    "points": 6,
+                    "power": "II",
+                    "time": 20
+                }
+            }
+        ]
+    }
+}
