@@ -1,0 +1,83 @@
+{
+    "nickname": "max",
+    "stats": {
+        "nickname": "max",
+        "gold": 47,
+        "rogue_level": 4,
+        "defeated_enemies": 9,
+        "eaten_food": 0,
+        "used_potions": 0,
+        "used_scrolls": 0,
+        "total_hits": 27,
+        "missed_hits": 9,
+        "passed_cells": 485
+    },
+    "character_state": {
+        "level": 5,
+        "strength": 15,
+        "agility": 10,
+        "max_hp": 169,
+        "hp": 60,
+        "exp": 8,
+        "max_exp": 12,
+        "gold": 47,
+        "effects": [],
+        "items": [
+            {
+                "cls": "Food",
+                "dump": {
+                    "name": "яблоко",
+                    "hp": 10
+                }
+            },
+            {
+                "cls": "Potion",
+                "dump": {
+                    "feature": "AGILITY",
+                    "points": 6,
+                    "power": "III",
+                    "time": 30
+                }
+            },
+            {
+                "cls": "Potion",
+                "dump": {
+                    "feature": "STRENGTH",
+                    "points": 7,
+                    "power": "I",
+                    "time": 10
+                }
+            },
+            {
+                "cls": "Scroll",
+                "dump": {
+                    "feature": "MAX_HEALTH",
+                    "points": 11
+                }
+            },
+            {
+                "cls": "Scroll",
+                "dump": {
+                    "feature": "AGILITY",
+                    "points": 1
+                }
+            },
+            {
+                "cls": "Weapon",
+                "dump": {
+                    "name": "Короткий меч",
+                    "power": 3,
+                    "held": false
+                }
+            },
+            {
+                "cls": "Weapon",
+                "dump": {
+                    "name": "Булава",
+                    "power": 9,
+                    "held": true
+                }
+            }
+        ]
+    }
+}
