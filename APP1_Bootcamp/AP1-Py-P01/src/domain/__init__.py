@@ -1,0 +1,1 @@
+Coordinate = tuple[int, int]
