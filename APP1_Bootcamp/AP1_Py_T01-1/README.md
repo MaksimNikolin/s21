@@ -339,5 +339,3 @@ The machine has certain year of manufacture, cost and running time. You need to 
         <td>1100</td>
     </tr>
 </table>
-
-💡 [Click here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to give us feedback on this project**. It's anonymous and will help our team make your learning process better.
