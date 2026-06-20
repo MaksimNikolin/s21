@@ -1,0 +1,741 @@
+         98025 function calls (97931 primitive calls) in 0.596 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       13    0.239    0.018    0.239    0.018 {method 'read' of '_ssl._SSLSocket' objects}
+        1    0.113    0.113    0.113    0.113 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+        1    0.100    0.100    0.100    0.100 {method 'connect' of '_socket.socket' objects}
+        1    0.067    0.067    0.067    0.067 {built-in method _socket.getaddrinfo}
+      802    0.006    0.000    0.010    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:1626(__init__)
+        2    0.005    0.003    0.063    0.031 /usr/lib/python3.10/html/parser.py:133(goahead)
+      801    0.005    0.000    0.037    0.000 /usr/lib/python3.10/html/parser.py:300(parse_starttag)
+     1668    0.004    0.000    0.015    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:826(endData)
+     5544    0.003    0.000    0.003    0.000 {method 'match' of 're.Pattern' objects}
+     1426    0.003    0.000    0.006    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:867(object_was_parsed)
+     3654    0.003    0.000    0.003    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:376(setup)
+      801    0.002    0.000    0.023    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:987(handle_starttag)
+     3217    0.002    0.000    0.003    0.000 /usr/lib/python3.10/_markupbase.py:44(updatepos)
+      801    0.002    0.000    0.003    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:382(_replace_cdata_list_attribute_values)
+      801    0.002    0.000    0.026    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:142(handle_starttag)
+     1426    0.002    0.000    0.003    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:732(string_container)
+      742    0.002    0.000    0.012    0.000 /usr/lib/python3.10/html/parser.py:385(parse_endtag)
+      802    0.002    0.000    0.002    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:809(pushTag)
+        2    0.001    0.001    0.001    0.001 {method 'decompress' of 'zlib.Decompress' objects}
+      784    0.001    0.000    0.003    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:950(_popToTag)
+     1426    0.001    0.000    0.003    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:1291(__new__)
+      763    0.001    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:906(_linkage_fixer)
+      801    0.001    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:786(popTag)
+     1648    0.001    0.000    0.001    0.000 {method 'start' of 're.Match' objects}
+     2292    0.001    0.000    0.001    0.000 /usr/lib/python3.10/typing.py:306(inner)
+     2411    0.001    0.000    0.001    0.000 {method 'search' of 're.Pattern' objects}
+      801    0.001    0.000    0.002    0.000 /usr/lib/python3.10/html/parser.py:351(check_for_whole_start_tag)
+7169/7161    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
+     3026    0.001    0.000    0.001    0.000 {method 'count' of 'str' objects}
+     5648    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     4286    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+     1416    0.001    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:222(handle_data)
+       18    0.001    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:1079(_find_all)
+      784    0.001    0.000    0.009    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:1053(handle_endtag)
+     2388    0.001    0.000    0.001    0.000 {method 'group' of 're.Match' objects}
+      793    0.001    0.000    0.009    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:204(handle_endtag)
+     2595    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
+     1457    0.001    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:1065(handle_data)
+     3337    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+      801    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:1820(is_empty_element)
+     1466    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x642915c399a0}
+     2742    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:2771(descendants)
+     3147    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+     3144    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:1737(cast)
+2426/2418    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.001    0.000 /usr/lib/python3.10/urllib/request.py:2487(getproxies_environment)
+      978    0.000    0.000    0.000    0.000 {method 'rindex' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:514(family)
+      802    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:636(set_up_substitutions)
+      802    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:290(can_be_empty_element)
+      485    0.000    0.000    0.001    0.000 /usr/lib/python3.10/os.py:698(__iter__)
+     1543    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       27    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:473(urlsplit)
+      488    0.000    0.000    0.000    0.000 /usr/lib/python3.10/os.py:759(decode)
+      728    0.000    0.000    0.000    0.000 /usr/lib/python3.10/html/__init__.py:122(unescape)
+      801    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_markupbase.py:36(getpos)
+      742    0.000    0.000    0.000    0.000 /usr/lib/python3.10/html/parser.py:126(clear_cdata_mode)
+      485    0.000    0.000    0.001    0.000 /usr/lib/python3.10/_collections_abc.py:885(__iter__)
+        5    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/url.py:227(_encode_invalid_chars)
+       10    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:355(putheader)
+        2    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.281    0.281 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:669(connect)
+      820    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+      667    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+       25    0.000    0.000    0.001    0.000 /usr/lib/python3.10/urllib/parse.py:380(urlparse)
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:546(urlunsplit)
+       40    0.000    0.000    0.002    0.000 /usr/lib/python3.10/_markupbase.py:165(parse_comment)
+       13    0.000    0.000    0.239    0.018 /usr/lib/python3.10/ssl.py:1150(read)
+      891    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1239(putheader)
+       50    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:494(_parse)
+      574    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+      841    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:471(_parse_headers)
+      801    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:2227(__bool__)
+        2    0.000    0.000    0.241    0.120 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:485(getresponse)
+       32    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+      171    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:1881(_all_strings)
+       82    0.000    0.000    0.000    0.000 /usr/lib/python3.10/html/__init__.py:91(_replace_charref)
+        4    0.000    0.000    0.001    0.000 /usr/lib/python3.10/email/feedparser.py:218(_parsegen)
+      7/3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:87(_compile)
+       40    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:285(handle_comment)
+        2    0.000    0.000    0.001    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:369(request)
+       13    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:991(update)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/_policybase.py:301(header_source_parse)
+       18    0.000    0.000    0.000    0.000 /usr/lib/python3.10/enum.py:359(__call__)
+      2/1    0.000    0.000    0.530    0.530 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:673(send)
+      110    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        1    0.000    0.000    0.113    0.113 /usr/lib/python3.10/ssl.py:1014(_create)
+       56    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:123(_coerce_args)
+        1    0.000    0.000    0.000    0.000 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+       12    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+       13    0.000    0.000    0.239    0.018 /usr/lib/python3.10/socket.py:691(readinto)
+       28    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:78(readline)
+       25    0.000    0.000    0.001    0.000 /usr/lib/python3.10/re.py:288(_compile)
+      3/2    0.000    0.000    0.129    0.064 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:159(resolve_redirects)
+       16    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:462(get)
+        3    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        2    0.000    0.000    0.240    0.120 /usr/lib/python3.10/http/client.py:311(begin)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:497(get_all)
+       18    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/filter.py:378(__init__)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1604(make_cookies)
+       15    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:730(readable)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1083(putrequest)
+        1    0.000    0.000    0.596    0.596 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/./financial.py:9(get_field_data)
+        4    0.000    0.000    0.003    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:1173(read_chunked)
+        2    0.000    0.000    0.523    0.262 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:592(urlopen)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:206(_read_headers)
+        2    0.000    0.000    0.523    0.261 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:377(_make_request)
+       24    0.000    0.000    0.001    0.000 /usr/lib/python3.10/html/parser.py:122(set_cdata_mode)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:412(_close_conn)
+       30    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:257(__getitem__)
+  106/104    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        2    0.000    0.000    0.239    0.119 /usr/lib/python3.10/http/client.py:278(_read_status)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:335(extend)
+        2    0.000    0.000    0.240    0.120 /usr/lib/python3.10/http/client.py:1331(getresponse)
+       31    0.000    0.000    0.239    0.008 {method 'readline' of '_io.BufferedReader' objects}
+       25    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:248(_qsize)
+       20    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:168(hostname)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:302(makefile)
+       23    0.000    0.000    0.000    0.000 /usr/lib/python3.10/os.py:675(__getitem__)
+    41/11    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        2    0.000    0.000    0.525    0.262 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:613(send)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:209(_hostinfo)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/poolmanager.py:95(_default_key_normalizer)
+       24    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:289(__iter__)
+        1    0.000    0.000    0.113    0.113 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:846(_ssl_wrap_socket_and_match_hostname)
+       47    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/structures.py:46(__setitem__)
+       22    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:300(add)
+       13    0.000    0.000    0.239    0.018 /usr/lib/python3.10/ssl.py:1292(recv_into)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1685(extract_cookies)
+        1    0.000    0.000    0.063    0.063 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:209(__init__)
+       34    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/_policybase.py:289(_sanitize_header)
+        3    0.000    0.000    0.002    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:122(decompress)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:821(get)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:220(__init__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:577(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:122(put)
+      195    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:1360(_real_close)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:1255(sendall)
+        6    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:124(extract_cookies_to_jar)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:658(__init__)
+       32    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/structures.py:51(__getitem__)
+        1    0.000    0.000    0.167    0.167 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/connection.py:27(create_connection)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:564(get_content_type)
+        1    0.000    0.000    0.000    0.000 {function socket.close at 0x7a7e63e00b80}
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/url.py:367(parse_url)
+        2    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:359(build_response)
+        5    0.000    0.000    0.001    0.000 {method 'read' of '_io.BufferedReader' objects}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:316(__init__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/request.py:191(body_to_chunks)
+        2    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:204(get_netrc_auth)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/posixpath.py:229(expanduser)
+       24    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:127(handle_startendtag)
+       19    0.000    0.000    0.003    0.000 {method 'join' of 'bytes' objects}
+        7    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+       25    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:909(__iter__)
+       18    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/filter.py:224(__init__)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:292(_optimize_charset)
+        3    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:765(should_bypass_proxies)
+        2    0.000    0.000    0.281    0.140 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:1085(_validate_conn)
+       18    0.000    0.000    0.000    0.000 /usr/lib/python3.10/enum.py:678(__new__)
+       41    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:234(__next)
+       13    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:154(get)
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.10/http/client.py:224(parse_headers)
+       10    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/structures.py:40(__init__)
+       28    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:128(__next__)
+       42    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:139(__init__)
+      7/3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:175(getwidth)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:165(__getitem__)
+       23    0.000    0.000    0.000    0.000 /usr/lib/python3.10/os.py:755(encode)
+       33    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:547(<listcomp>)
+       14    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:828(__contains__)
+        1    0.000    0.000    0.067    0.067 /usr/lib/python3.10/socket.py:938(getaddrinfo)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:417(close)
+       61    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:562(set_alpn_protocols)
+       23    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:560(_compile_info)
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.10/email/parser.py:41(parse)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:101(push)
+       36    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/utils.py:52(_has_surrogates)
+       33    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:524(get_text)
+       39    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:2168(get)
+       38    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:986(__setattr__)
+       39    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        8    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:35(__init__)
+       54    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/filter.py:490(_make_match_rules)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+      196    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.167    0.167 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:192(_new_conn)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.10/sre_compile.py:783(compile)
+       10    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:944(parse)
+       31    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1266(__init__)
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.10/email/parser.py:59(parsestr)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:29(_splitparam)
+        2    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/response.py:40(assert_header_parsing)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:248(__init__)
+       34    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/_policybase.py:319(header_fetch_parse)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:479(set_raw)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1536(find_spec)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1227(vals_sorted_by_key)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:838(select_proxy)
+       96    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       72    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       25    0.000    0.000    0.000    0.000 /usr/lib/python3.10/types.py:176(__get__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:679(__init__)
+       10    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:404(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:53(__init__)
+       13    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:2181(get_attribute_list)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:240(__init__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/contextlib.py:102(__init__)
+        7    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/timeout.py:109(__init__)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:99(_intenum_converter)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:521(cookiejar_from_dict)
+       20    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:357(<genexpr>)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:1016(__init__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:514(_parse_content_type_header)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:1133(_update_chunk_length)
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:1138(__getitem__)
+        5    0.000    0.000    0.003    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:890(content)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/typing_extensions.py:3389(_has_generic_or_protocol_as_origin)
+        1    0.000    0.000    0.113    0.113 /usr/lib/python3.10/ssl.py:1364(do_handshake)
+        4    0.000    0.000    0.001    0.000 /usr/lib/python3.10/email/feedparser.py:178(_call_parse)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:120(__init__)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:909(text)
+       18    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/util.py:19(to_str)
+       22    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:266(handle_entityref)
+       18    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:2723(find_all)
+       36    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:255(get)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:141(clear)
+       32    0.000    0.000    0.000    0.000 /usr/lib/python3.10/abc.py:117(__instancecheck__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/encodings/idna.py:145(encode)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1361(add_cookie_header)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:728(verify_mode)
+       35    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/structures.py:58(<genexpr>)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:146(_type_check)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:446(get_connection_with_tls_context)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/contextlib.py:139(__exit__)
+       25    0.000    0.000    0.001    0.000 /usr/lib/python3.10/re.py:249(compile)
+       56    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:112(_noop)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:359(notify)
+       28    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:885(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/genericpath.py:16(exists)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:459(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:968(send)
+        4    0.000    0.000    0.003    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:816(generate)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:768(close)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:265(_compile_charset)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:1154(__subclasscheck__)
+        1    0.000    0.000    0.001    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:864(resolve_proxies)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/connection.py:93(_set_socket_options)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1008(_output)
+       25    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:264(__enter__)
+        2    0.000    0.000    0.000    0.000 {method 'poll' of 'select.poll' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:666(reset)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/url.py:263(_remove_path_dot_segments)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:935(_is_dunder)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:335(putrequest)
+        7    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/structures.py:57(__iter__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:539(get_encoding_from_headers)
+        7    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:61(merge_setting)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1029(_send_output)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:213(get_payload)
+        2    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x7a7e63cecaf0}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:90(_urllib3_request_context)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/wait.py:82(_have_working_poll)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:175(__init__)
+        4    0.000    0.000    0.003    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:1044(stream)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1231(deepvalues)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/poolmanager.py:374(_merge_pool_kwargs)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/wait.py:57(poll_wait_for_socket)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:108(lookup)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:485(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+       25    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:267(__exit__)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:436(_parse_sub)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:736(verify_mode)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:173(append)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:429(flush)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:70(close)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/poolmanager.py:330(connection_from_pool_key)
+        6    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:163(host)
+       51    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:657(_last_descendant)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:450(_init_decoder)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:294(_put_conn)
+       13    0.000    0.000    0.000    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:504(detach)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/contextlib.py:130(__enter__)
+    41/11    0.000    0.000    0.000    0.000 /usr/lib/python3.10/abc.py:121(__subclasscheck__)
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:279(_is_owned)
+        1    0.000    0.000    0.531    0.531 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/api.py:62(get)
+        1    0.000    0.000    0.531    0.531 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:500(request)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:107(get_redirect_target)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:950(get_code)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:588(get_content_maintype)
+       18    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:2877(__init__)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/typing_extensions.py:3424(_collect_type_vars)
+        2    0.000    0.000    0.002    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:469(_decode)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:993(__instancecheck__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/poolmanager.py:276(connection_from_host)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:741(_error_catcher)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:546(request_url)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:1228(send)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:128(<listcomp>)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/contextlib.py:279(helper)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:774(get_proxy)
+        1    0.000    0.000    0.113    0.113 /usr/lib/python3.10/ssl.py:507(wrap_socket)
+       19    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        2    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:1151(_handle_chunk)
+        1    0.000    0.000    0.063    0.063 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:449(feed)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/enum.py:986(__and__)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.10/http/client.py:624(_safe_read)
+       13    0.000    0.000    0.000    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+       30    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:1138(_checkClosed)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/poolmanager.py:305(connection_from_context)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:685(_init_length)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:641(release_conn)
+        3    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:118(__init__)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:769(is_redirect)
+        1    0.000    0.000    0.531    0.531 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/api.py:14(request)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:957(pop)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:256(_get_conn)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:184(close)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:930(quote_from_bytes)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:1147(copy_with)
+        1    0.000    0.000    0.113    0.113 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/ssl_.py:410(ssl_wrap_socket)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:347(__init__)
+        5    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/url.py:301(_normalize_host)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/typing_extensions.py:3296(_check_generic)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:1170(_close_pool_connections)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:622(_code)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1758(__iter__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:419(_splitnetloc)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:126(_path_join)
+       25    0.000    0.000    0.000    0.000 /usr/lib/python3.10/enum.py:801(value)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:90(RLock)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:380(cache_from_source)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:122(pushlines)
+       63    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:197(_new_message)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:404(parent)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:409(prepare_url)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:799(iter_content)
+        1    0.000    0.000    0.001    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:457(prepare_request)
+       11    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+       24    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:781(get_adapter)
+        7    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:345(to_key_val_list)
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+      2/1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:664(_load_unlocked)
+        5    0.000    0.000    0.000    0.000 {method 'subn' of 're.Pattern' objects}
+        6    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:211(<genexpr>)
+        1    0.000    0.000    0.001    0.001 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:302(rebuild_proxies)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:636(unquote_unreserved)
+       24    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:2280(__eq__)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:204(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:456(_generate_overlap_table)
+        5    0.000    0.000    0.000    0.000 {function HTTPResponse.close at 0x7a7e63ceca60}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:382(copy)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:358(update)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:428(copy)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/timeout.py:188(clone)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.10/email/feedparser.py:173(feed)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:536(close)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/structures.py:76(copy)
+       15    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:161(__len__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/logging/__init__.py:1724(isEnabledFor)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/url.py:100(__new__)
+       24    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:921(_find_spec)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:794(close)
+        2    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1267(endheaders)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:93(__getitem__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:535(urlunparse)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.10/urllib/request.py:2524(proxy_bypass_environment)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/shlex.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:84(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:78(_check_methods)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:245(__init__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:140(get_cookie_header)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1399(_get_spec)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:840(items)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:396(build_connection_pool_key_attributes)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:44(_debug)
+       18    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/filter.py:245(<listcomp>)
+       12    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/ssl_.py:484(is_ipaddress)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:85(path_url)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:225(__init__)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:542(merge_cookies)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/wait.py:95(wait_for_socket)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1070(get_data)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/retry.py:387(is_retry)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:862(__init__)
+       14    0.000    0.000    0.000    0.000 {built-in method time.time}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:488(_decref_socketios)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:660(requote_uri)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1739(clear_expired_cookies)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:236(__init__)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:404(retries)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:492(_init_module_attrs)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:143(flush)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:202(__init__)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:346(_get_timeout)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/html/parser.py:255(parse_html_declaration)
+       31    0.000    0.000    0.000    0.000 /usr/lib/python3.10/collections/__init__.py:579(__missing__)
+       25    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:836(keys)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/ssl_.py:186(resolve_cert_reqs)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:859(quote)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:390(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/logging/__init__.py:1455(debug)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:1044(_new_conn)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:179(port)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:334(__init__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/retry.py:202(__init__)
+        7    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/_internal_utils.py:25(to_native_string)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:1143(<genexpr>)
+        1    0.000    0.000    0.113    0.113 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/ssl_.py:508(_ssl_wrap_socket_impl)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:287(tell)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:254(_get)
+       13    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:680(<genexpr>)
+       21    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/timeout.py:130(_validate_timeout)
+        1    0.000    0.000    0.000    0.000 {method 'register' of 'select.poll' objects}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:499(_flush_decoder)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:451(items)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/retry.py:379(_is_method_retryable)
+        1    0.000    0.000    0.000    0.000 {method '_set_alpn_protocols' of '_ssl._SSLContext' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:383(_check_close)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:112(__init__)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:251(_put)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:333(rebuild_method)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:294(handle_decl)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/timeout.py:245(read_timeout)
+        6    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        9    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/url.py:330(_idna_encode)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:838(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:447(_simple)
+        4    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        2    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/url.py:349(_encode_target)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/html/parser.py:95(reset)
+        2    0.000    0.000    0.001    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:826(get_environ_proxies)
+      2/1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1022(_find_and_load)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:494(_real_close)
+       14    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       21    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:483(prepare_headers)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/encodings/__init__.py:71(search_function)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/weakref.py:569(__init__)
+        9    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       22    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       13    0.000    0.000    0.000    0.000 {method 'values' of 'collections.OrderedDict' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:947(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:499(_encode_hostname)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/poolmanager.py:199(__init__)
+        6    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:110(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:76(__init__)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:1124(supports_chunked_reads)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:356(_escape)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:282(rebuild_auth)
+        1    0.000    0.000    0.063    0.063 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:650(_feed)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:1902(get_origin)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:304(cert_verify)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:320(close)
+       12    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:117(info)
+        5    0.000    0.000    0.000    0.000 {method 'count' of 'bytes' objects}
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:534(<listcomp>)
+       17    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:250(match)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:610(prepare_cookies)
+        2    0.000    0.000    0.000    0.000 {method 'rstrip' of 'bytes' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/collections/__init__.py:565(__init__)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:619(isstring)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/connection.py:15(is_connection_dropped)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:210(_pop_message)
+        5    0.000    0.000    0.000    0.000 {method 'items' of 'collections.OrderedDict' objects}
+       29    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       36    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:409(__subclasshook__)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:344(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/timeout.py:202(start_connect)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/poolmanager.py:267(clear)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1302(_cookie_attrs)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:721(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:928(fix_flags)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:210(_get_decoder)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/poolmanager.py:229(_new_pool)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/parser.py:17(__init__)
+        1    0.000    0.000    0.129    0.129 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:724(<listcomp>)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/hooks.py:15(default_hooks)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:351(prepare)
+        4    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/hooks.py:22(dispatch_hook)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+        5    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/timeout.py:126(resolve_default_timeout)
+       11    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:670(_compile_bytecode)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:750(merge_environment_settings)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1214(_validate_method)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:566(__init__)
+        8    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:980(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:437(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:34(__init__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:435(_mk_bitmap)
+        6    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:743(set_environ)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/response.py:1092(closed)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/encodings/__init__.py:43(normalize_encoding)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:296(is_connected)
+      2/1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:877(exec_module)
+        8    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:1045(_validate_header_part)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:954(close)
+        5    0.000    0.000    0.000    0.000 {method 'decode' of 'bytearray' objects}
+        4    0.000    0.000    0.000    0.000 {method '__exit__' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/netrc.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/wait.py:74(do_poll)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/response.py:91(is_response_to_head)
+        1    0.000    0.000    0.000    0.000 {method 'flush' of 'zlib.Decompress' objects}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/posixpath.py:41(_get_sep)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:303(set_payload)
+        9    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method zlib.decompressobj}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:585(_classify_pyc)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/message.py:181(is_multipart)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:132(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:477(_get_iscased)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/typing_extensions.py:165(_should_collect_from_parameters)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:82(__init__)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:82(groups)
+        2    0.000    0.000    0.000    0.000 {method 'flush' of '_io.BufferedReader' objects}
+      2/1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:987(_find_and_load_unlocked)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/typing_extensions.py:3411(_is_unpacked_typevartuple)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1223(_validate_path)
+        6    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1210(_encode_request)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/weakref.py:586(__call__)
+        5    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/timeout.py:227(connect_timeout)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:520(type)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:240(init_poolmanager)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_collections.py:100(__setitem__)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:1026(close)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/encodings/idna.py:298(getregentry)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:440(isclosed)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/url.py:324(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:262(__subclasshook__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/inspect.py:191(isclass)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:564(module_from_spec)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:258(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:137(_type_convert)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:440(_copy_cookie_jar)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1295(_cookies_for_request)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:454(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:510(_get_cached)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:494(prepare_body)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+       15    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:81(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+       15    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:200(__new__)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/typing.py:1022(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.__import__}
+        1    0.000    0.000    0.063    0.063 /usr/lib/python3.10/html/parser.py:103(feed)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:1018(get_auth_from_url)
+        3    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        6    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:427(_checknetloc)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/hooks.py:16(<dictcomp>)
+       11    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+       10    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        3    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/wait.py:113(wait_for_read)
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/request.py:136(set_file_position)
+        2    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/_htmlparser.py:377(prepare_markup)
+        4    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:106(_encode_params)
+        2    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/response.py:79(<listcomp>)
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:292(is_closed)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:805(<listcomp>)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:900(default_headers)
+        8    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/retry.py:242(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:306(proxy_is_forwarding)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/shlex.py:19(shlex)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:169(__setitem__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/html/parser.py:86(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'clear' of 'collections.OrderedDict' objects}
+        4    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:1034(check_header_validity)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:799(mount)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:618(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:344(geturl)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/socket.py:498(close)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:391(cached)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1356(_path_importer_cache)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1531(_get_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/codecs.py:94(__new__)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:313(proxy_is_tunneling)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:84(<listcomp>)
+        3    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/_request_methods.py:51(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/email/feedparser.py:125(__iter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+        4    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_markupbase.py:32(reset)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:542(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/cookiejar.py:1274(set_policy)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:207(register_hook)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:588(prepare_auth)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/timeout.py:172(from_float)
+        2    0.000    0.000    0.000    0.000 {built-in method select.poll}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1089(path_stats)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1431(find_spec)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:765(_initialize_xml_detector)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:581(iter_slices)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:897(__exit__)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:791(_root_tag_encountered)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:433(_uniq)
+      2/1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+      2/1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:169(__enter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/ssl.py:1142(_check_connected)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:685(unquote)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:952(urlencode)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'bytearray' objects}
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:746(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:893(__enter__)
+        2    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:1145(_normalize_host)
+        2    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/logging/__init__.py:1710(getEffectiveLevel)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:1231(_validate_host)
+        1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:630(prepare_hooks)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:826(find_spec)
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:393(prepare_method)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        6    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/connection.py:103(allowed_gai_family)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/util/proxy.py:11(connection_requires_http_tunnel)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:160(username)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1053(_handle_fromlist)
+        5    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:140(__init__)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/element.py:2231(__setitem__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/collections/__init__.py:640(update)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/__init__.py:311(deprecated_argument)
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:516(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:296(_class_escape)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/urllib/parse.py:197(_userinfo)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/structures.py:60(__len__)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:435(get_policy)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connectionpool.py:337(_validate_conn)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/netrc.py:22(netrc)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/html/parser.py:112(close)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:282(reset)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:566(__subclasshook__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/adapters.py:578(add_headers)
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x7a7e63e00c10}
+        4    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/logging/__init__.py:219(_acquireLock)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/_internal_utils.py:38(unicode_is_ascii)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/io.py:60(__getattr__)
+        2    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/cookies.py:87(get_new_headers)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1040(__init__)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:91(merge_hooks)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/bs4/builder/__init__.py:274(initialize_soup)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/utils.py:891(default_user_agent)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/netrc.py:10(NetrcParseError)
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:71(_relax_case)
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:572(prepare_content_length)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        4    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/logging/__init__.py:1307(disable)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/logging/__init__.py:228(_releaseLock)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_collections_abc.py:865(__len__)
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'collections.OrderedDict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/urllib3/connection.py:182(host)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/http/client.py:884(_get_hostport)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:245(_init)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(has_location)
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/models.py:216(<genexpr>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1065(get_filename)
+        1    0.000    0.000    0.000    0.000 {built-in method _socket.getdefaulttimeout}
+        1    0.000    0.000    0.000    0.000 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/requests/sessions.py:451(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:874(create_module)
+
+

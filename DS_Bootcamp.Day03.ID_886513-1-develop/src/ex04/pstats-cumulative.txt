@@ -1,0 +1,13 @@
+         159082 function calls (157235 primitive calls) in 1.258 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1520 to 5 due to restriction <5>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.258    1.258 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/./financial_enhanced.py:8(get_field_data)
+        1    0.000    0.000    1.103    1.103 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/httpx/_client.py:1036(get)
+        1    0.000    0.000    1.103    1.103 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/httpx/_client.py:771(request)
+        1    0.000    0.000    1.103    1.103 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/httpx/_client.py:879(send)
+        1    0.000    0.000    1.098    1.098 /home/daisymal/DS_Bootcamp.Day03.ID_886513-1/src/ex04/daisymal/lib/python3.10/site-packages/httpx/_client.py:930(_send_handling_auth)
+
+
