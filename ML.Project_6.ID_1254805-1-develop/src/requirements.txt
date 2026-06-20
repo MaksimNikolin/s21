@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+scipy
+statsmodels
+matplotlib
+seaborn
+optuna
+lightgbm
+catboost
+umap-learn
+torch
+annoy
+nmslib
+opencv-python

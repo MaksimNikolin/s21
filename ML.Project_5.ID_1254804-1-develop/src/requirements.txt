@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+catboost
+category_encoders
